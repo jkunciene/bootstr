@@ -1,6 +1,6 @@
 .bgf{
   background:#eee url("img/meniu_dviratis.png");
-  height: 650px;
+  height: 450px;
   background-repeat: no-repeat;
   max-width: 100%;
   background-size: cover;
@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   max-width: 100%; 
   background-size: cover;
-  height: 700px;
+  
 }
 .uzpildo2{
 
@@ -126,13 +126,7 @@ nav{
   text-align: center;
 
 }
-.aukstis350{
-  height: 350px;
-}
-.aukscio{
-  height: 300px;
-  padding-top: 30px;
-}
+
 .eiluteje{
   display: inline-block;
   text-align: center;
@@ -180,4 +174,37 @@ h3, h4{
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+@media only screen and (max-width: 1024px) {
+.bgf{
+  background-size: cover;
+  }
+
+}
+@media only screen and (max-width: 992px) {
+.bgf{
+  background-size: cover;
+  height: 150px; 
+}
+p{
+  font-size: 156px;
+}
+h3, h4{
+  font-size: 20px;
+}
+
+}
+@media only screen and (max-width: 768px) {
+.bgf{
+  background-size: cover;
+  height: 100px;
+  
+}
+p{
+  font-size: 10px;
+}
+h3, h4{
+  font-size: 15px;
+}
+}
 }
